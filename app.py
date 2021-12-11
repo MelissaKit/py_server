@@ -10,7 +10,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-modelFileName = 'finalized_model.sav'
+modelFileName = 'posts_model.sav'
 
 def getApp():
     return app
